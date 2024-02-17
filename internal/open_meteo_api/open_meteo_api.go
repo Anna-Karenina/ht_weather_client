@@ -3,7 +3,7 @@ package open_meteo_api
 import (
 	"encoding/json"
 	"fmt"
-	"go_education/weather/http_client"
+	"go_education/weather/pkg/http_client"
 	"io"
 	"net/http"
 	"time"

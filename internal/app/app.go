@@ -1,12 +1,12 @@
-package main
+package app
 
 import (
-	geo_checker "go_education/weather/geo_checker_api"
-	open_meteo_api "go_education/weather/open_meteo_api"
-	tui "go_education/weather/tui"
+	geo_checker "go_education/weather/internal/geo_checker_api"
+	open_meteo_api "go_education/weather/internal/open_meteo_api"
+	tui "go_education/weather/internal/tui"
 )
 
-func main() {
+func RunApp() {
 	app := tui.CreateApp()
 	go app.Run()
 
@@ -45,7 +45,5 @@ func main() {
 			)
 
 		}
-
 	}
-
 }

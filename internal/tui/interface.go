@@ -2,7 +2,7 @@ package tui
 
 import (
 	"fmt"
-	open_meteo_api "go_education/weather/open_meteo_api"
+	open_meteo_api "go_education/weather/internal/open_meteo_api"
 	"math"
 	"strings"
 	"time"
